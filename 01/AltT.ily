@@ -1,0 +1,5 @@
+{
+Re -- qui -- em e -- ter -- _ nam, e -- ter -- _ _ _ _ _ _ _ _ _ nam do -- na e -- is,
+do -- na e -- is Do -- _ _ mi -- ne, lu -- ce -- at e -- _ _ _ _ is,
+lu -- ce -- at e -- _ _ _ _ is lu -- ce -- at e -- _ _ _ _ is.
+}
