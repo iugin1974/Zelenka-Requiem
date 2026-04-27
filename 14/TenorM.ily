@@ -9,13 +9,13 @@
     c4. h8 c2 | % 9
     c4. ^\p h8 c2 | \barNumberCheck #10
     R1*2 | % 12
-    r4 b8 b8 es4 g,8 b8 | % 13
+    r4 b8^\solo b8 es4 g,8 b8 | % 13
     es,4 es4 r4 es'8 [ des8 ] | % 14
     des4 c8 b8 as4 as4 | % 15
     r4 f'4 f8 [ e8 ] es8 es8 | % 16
     es8 [ d8 ] des8 des8 des4 c8 [ b8 ] | % 17
     b2 as4 as8 as8 | % 18
-    es'4 es4 r4 b8 ^\f b8 | % 19
+    es'4 es4 r4 b8 ^\f^\tutti b8 | % 19
     b4 b4 b4 c8 [ es8 ] | \barNumberCheck #20
     es4. d8 es2 | % 21
     b4. ^\p b8 b2 | % 22

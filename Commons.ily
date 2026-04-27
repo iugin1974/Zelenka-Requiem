@@ -125,7 +125,7 @@ tbnIIIvn = \with {
 
 setBeams = {
 \autoBeamOff
-\set melismaBusyProperties = #'(tieMelismaBusy slurMelismaBusy)  
+\set melismaBusyProperties = #'(tieMelismaBusy slurMelismaBusy)
 }
 
 defaultBeams = #(define-music-function (m) (ly:music?)
@@ -171,6 +171,12 @@ kb =
 #(define-scheme-function (parser location)()
    #{
      \markup { \italic {(Kb.)}}
+   #})
+
+soloTenuto =
+#(define-scheme-function (parser location)()
+   #{
+     \markup { \italic {solo tenuto}}
    #})
 
 #(define-markup-command (tacet layout props text)

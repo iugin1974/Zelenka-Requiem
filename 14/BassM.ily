@@ -1,5 +1,5 @@
 \relative c {
-    c4. c8 c'4 c4 | % 2
+    c4.-\f c8 c'4 c4 | % 2
     c,4. c8 c'4 c8 c8 | % 3
     as4 as4 r4 as4 | % 4
     a4 a4 r8 d,8 d8 d8 | % 5
@@ -10,7 +10,7 @@
     g4. ^\p g8 c2 | \barNumberCheck #10
     R1*3 | % 13
     R1*5 | % 18
-    r2 r4 es8 ^\f es8 | % 19
+    r2 r4 es8 ^\f^\tutti es8 | % 19
     b'4 b4 g4 as4 | \barNumberCheck #20
     b4. b,8 es2 | % 21
     b4. ^\p b8 es2 | % 22

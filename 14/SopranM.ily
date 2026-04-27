@@ -11,7 +11,7 @@
     R1*3 | % 13
     R1*4 | % 17
     r2 r4 c8 c8 | % 18
-    b4 b4 r4 es8 ^\f es8 | % 19
+    b4 b4 r4 es8 ^\f^\tutti es8 | % 19
     es4 d4 es4 c4 | \barNumberCheck #20
     b4. b8 b2 | % 21
     f4. f8 g2 | % 22
@@ -25,8 +25,8 @@
     r4 es4 des4 des4 | % 31
     r4 c2 b4 ~ | % 32
     b4 as4 g2 | % 33
-    f2 _\f r2 | % 34
-    c'4 c4 h8 ( [ g8 ) ] b4 | % 35
+    f2 r2 | % 34
+    c'4-\f c4 h8 ( [ g8 ) ] b4 | % 35
     as8 ( [ f8 ) ] as4 g4. g8 | % 36
     f2 r4 c'4 ( | % 37
     b4 ) c4 c4 c4 | % 38
