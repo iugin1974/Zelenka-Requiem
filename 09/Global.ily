@@ -1,4 +1,5 @@
 {
+\compressEmptyMeasures
 \key es \major
 \time 4/4
 \tempo "Largo" 8=86

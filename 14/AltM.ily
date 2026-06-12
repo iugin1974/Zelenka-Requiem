@@ -1,5 +1,5 @@
 \relative es' {
-    es4. ^\f g8 es4 es4 | % 2
+    es4. -\f g8 es4 es4 | % 2
     es4. g8 es4 es8 es8 | % 3
     es4 es4 r4 f4 | % 4
     fis4 fis4 r8 fis8 g8 a8 | % 5
@@ -7,16 +7,16 @@
     g4 g4 r4 f8 f8 | % 7
     f4 f4 f8 ( [ es8 ) ] d4 | % 8
     d4. d8 d2 | % 9
-    d4. ^\p d8 e2 | \barNumberCheck #10
+    d4. -\p d8 e2 | \barNumberCheck #10
     R1*3 | % 13
     R1*4 | % 17
     r2 r4 as8 as8 | % 18
-    as4 g4 r4 g8 ^\f^\tutti g8 | % 19
+    as4 g4 r4 g8 -\f^\tutti g8 | % 19
     f4 f4 g4 f4 | \barNumberCheck #20
     f4. es8 es2 | % 21
-    es4. ^\p d8 es2 | % 22
+    es4. -\p d8 es2 | % 22
     R1*2 | % 24
-    g4. _\f g8 g4 es8 es8 | % 25
+    g4. -\f g8 g4 es8 es8 | % 25
     d4 d4 r2 | % 26
     r4 b'8 [ as8 ] g2 ~ | % 27
     g2 f2 | % 28
@@ -37,7 +37,7 @@
     f4 es4 as4 b4 | % 43
     es,4 as4. ( g8 ) g4 ~ | % 44
     g4 f4 f4 ( e4 ) \fermata \bar "||"
-    r4 g4 ( ^\f as4 ) b4 | % 46
+    r4 g4 ( -\f as4 ) b4 | % 46
     es,4 es4 r2 | % 47
     r4 g4 ( as4 ) as4 | % 48
     g1 ~ | % 49

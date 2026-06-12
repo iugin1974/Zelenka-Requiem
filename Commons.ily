@@ -207,6 +207,7 @@ smallStaff = \with {
   fontSize = #-2
   \override StaffSymbol.staff-space = #(magstep -2)
   \override StaffSymbol.thickness = #(magstep -2)
+  \consists Merge_rests_engraver
 }
 
 noDym = \layout {

@@ -3,6 +3,7 @@
 \include "Cover.ily"
 \include "Commons.ily"
 #(set-global-staff-size 15)
+\noDym
 
 \paper {
   markup-system-spacing.padding = #5
@@ -21,7 +22,7 @@
   \bookpart {
     \header {
       title = \markup { \fromproperty #'header:myTitle }
-      instrument = "Partitur"
+      instrument = "Stimmen"
     }
     \markup \null
   } %ends titling
@@ -53,7 +54,7 @@
           \new Lyrics \lyricsto "BassM" \include #(string-append prefix "BassT.ily")
         >>
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff <<
             \include #(string-append prefix "Global.ily")
             \include #(string-append prefix "Violine1.ily") \\
@@ -97,7 +98,7 @@
           \new Lyrics \lyricsto "BassM" \include #(string-append prefix "BassT.ily")
         >>
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff <<
             \include #(string-append prefix "Global.ily")
             \include #(string-append prefix "Violine1.ily") \\
@@ -143,7 +144,7 @@
           \new Lyrics \lyricsto "BassM" \include #(string-append prefix "BassT.ily")
         >>
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff <<
             \include #(string-append prefix "Global.ily")
             \include #(string-append prefix "Violine1.ily") \\
@@ -180,7 +181,7 @@
         >>
 
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff <<
             \include #(string-append prefix "Global.ily")
             \include #(string-append prefix "Violine1.ily") \\
@@ -226,7 +227,7 @@
           \new Lyrics \lyricsto "BassM" \include #(string-append prefix "BassT.ily")
         >>
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff <<
             \include #(string-append prefix "Global.ily")
             \include #(string-append prefix "Violine1.ily") \\
@@ -260,7 +261,7 @@
           \new Lyrics \lyricsto "TenorM" \include #(string-append prefix "TenorT.ily")
         >>
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff <<
             \include #(string-append prefix "Global.ily")
             \include #(string-append prefix "Violine1.ily") \\
@@ -287,7 +288,7 @@
         << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "SopranM.ily") >>
         \new Lyrics \lyricsto "SopranM" \include #(string-append prefix "SopranT.ily")
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff <<
             \include #(string-append prefix "Global.ily")
             \include #(string-append prefix "Violine1.ily") \\
@@ -314,7 +315,7 @@
         << \clef "bass" \include #(string-append prefix "Global.ily") \include #(string-append prefix "BassM.ily") >>
         \new Lyrics \lyricsto "BassM" \include #(string-append prefix "BassT.ily")
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff <<
             \include #(string-append prefix "Global.ily")
             \include #(string-append prefix "Violine1.ily") \\
@@ -341,7 +342,7 @@
         << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "AltM.ily") >>
         \new Lyrics \lyricsto "AltM" \include #(string-append prefix "AltT.ily")
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff <<
             \include #(string-append prefix "Global.ily")
             \include #(string-append prefix "Violine1.ily")
@@ -385,7 +386,7 @@
           \new Lyrics \lyricsto "BassM" \include #(string-append prefix "BassT.ily")
         >>
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff <<
             \include #(string-append prefix "Global.ily")
             \include #(string-append prefix "Violine1.ily") \\
@@ -433,7 +434,7 @@
           \new Lyrics \lyricsto "BassM" \include #(string-append prefix "BassT.ily")
         >>
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff <<
             \include #(string-append prefix "Global.ily")
             \include #(string-append prefix "Violine1.ily") \\
@@ -471,7 +472,7 @@
           \new Lyrics \lyricsto "BassM" \include #(string-append prefix "BassT.ily")
         >>
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
           \new Staff
           <<
@@ -514,7 +515,7 @@
           \new Lyrics \lyricsto "BassM" \include #(string-append prefix "BassT.ily")
         >>
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff <<
             \include #(string-append prefix "Global.ily")
             \include #(string-append prefix "Violine1.ily") \\
@@ -558,7 +559,7 @@
           \new Lyrics \lyricsto "BassM" \include #(string-append prefix "BassT.ily")
         >>
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff <<
             \include #(string-append prefix "Global.ily")
             \include #(string-append prefix "Violine1.ily") \\
@@ -586,7 +587,7 @@
         << \clef "bass" \include #(string-append prefix "Global.ily") \include #(string-append prefix "BassM.ily") >>
         \new Lyrics \lyricsto "BassM" \include #(string-append prefix "BassT.ily")
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff <<
             \include #(string-append prefix "Global.ily")
             \include #(string-append prefix "Violine1.ily") \\
@@ -595,7 +596,6 @@
           \new Staff  <<
             \clef "bass"
             \include #(string-append prefix "Global.ily")
-            \include #(string-append prefix "Viola.ily") \\
             \include #(string-append prefix "Violoncello.ily")
           >>
         >>
@@ -632,7 +632,7 @@
           \new Lyrics \lyricsto "BassM" \include #(string-append prefix "BassT.ily")
         >>
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff <<
             \include #(string-append prefix "Global.ily")
             \include #(string-append prefix "Violine1.ily") \\
@@ -718,7 +718,7 @@
           << \clef "alto" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Viola.ily") >>
         >>
 
-        \new PianoStaff <<
+        \new PianoStaff \with \smallStaff <<
           \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
           \new Staff
           <<

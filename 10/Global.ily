@@ -1,4 +1,5 @@
 {
+\compressEmptyMeasures
 \key c \minor
 \time 3/2
 \tempo "Adagio" 2=85

@@ -16,7 +16,7 @@
     f2 g4 c,4 | % 16
     f4 b,4 es4 as8 des,8 | % 17
     es2 as,4 as'4 | % 18
-    es'2 r4 es,4 _\f | % 19
+    es'2 r4 es,4 -\f | % 19
     b'2 g4 as4 | \barNumberCheck #20
     b4 b,4 es2 | % 21
     r2 r4 g4 | % 22
@@ -31,7 +31,7 @@
     r4 c'4 b2 | % 31
     r4 as4 b,2 | % 32
     c1 | % 33
-    f,2 \clef "soprano" f''4 -. _\f f4 -. | % 34
+    f,2 \clef "soprano" f''4 -. -\f f4 -. | % 34
     c'4 c4 h8 g8 b4 \clef "bass" | % 35
     f,4 f4 e8 c8 es4 | % 36
     d4 des4 c4 f4 ~ | % 37
@@ -43,7 +43,7 @@
     g4 c4 f,4 g4 | % 43
     as2 es4 e4 | % 44
     f2 c2 \fermata \bar "||"
-    c2 _\f f4 g4 | % 46
+    c2 -\f f4 g4 | % 46
     as2 r4 as4 | % 47
     g4 c4 f,2 | % 48
     g2 g2 ~ | % 49

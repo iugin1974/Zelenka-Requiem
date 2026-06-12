@@ -17,12 +17,12 @@
 }
 
 \book {
-  \bookOutputName "Requiem - Violine1"
+  \bookOutputName "Requiem - Violine2"
 
   \bookpart {
     \header {
       title = \markup { \fromproperty #'header:myTitle }
-      instrument = "Violine I"
+      instrument = "Violine II"
     }
     \markup \null
   } %ends titling
@@ -33,8 +33,8 @@
       \include #(string-append prefix "Header.ily")
       <<
           \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+          \new Voice = "Violine2"
+          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
       >>
     }
 
@@ -43,18 +43,20 @@
       \include #(string-append prefix "Header.ily")
       <<
           \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+          \new Voice = "Violine2"
+          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
       >>
     }
+  }
 
+  \bookpart {
     #(define prefix "03/")
     \score {
       \include #(string-append prefix "Header.ily")
       <<
           \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+          \new Voice = "Violine2"
+          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
       >>
     }
 
@@ -63,8 +65,8 @@
       \include #(string-append prefix "Header.ily")
       <<
           \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+          \new Voice = "Violine2"
+          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
       >>
     }
 
@@ -73,8 +75,8 @@
       \include #(string-append prefix "Header.ily")
       <<
           \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+          \new Voice = "Violine2"
+          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
       >>
     }
 
@@ -83,8 +85,8 @@
       \include #(string-append prefix "Header.ily")
       <<
           \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+          \new Voice = "Violine2"
+          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
       >>
     }
 
@@ -93,8 +95,8 @@
       \include #(string-append prefix "Header.ily")
       <<
           \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+          \new Voice = "Violine2"
+          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
       >>
     }
 }
@@ -105,28 +107,20 @@
       \include #(string-append prefix "Header.ily")
       <<
           \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+          \new Voice = "Violine2"
+          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
       >>
     }
 
-    #(define prefix "09/")
-    \score {
-      \include #(string-append prefix "Header.ily")
-      <<
-          \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
-      >>
-    }
+ \markup\tacet{"09. Liber scriptus"}
 
     #(define prefix "10/")
     \score {
       \include #(string-append prefix "Header.ily")
       <<
           \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily")
+          \new Voice = "Violine2"
+          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily")
              { s1.*21 s1*19 \pageBreak }>>
       >>
     }
@@ -136,8 +130,8 @@
       \include #(string-append prefix "Header.ily")
       <<
           \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+          \new Voice = "Violine2"
+          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
       >>
     }
 
@@ -150,8 +144,8 @@
       \include #(string-append prefix "Header.ily")
       <<
           \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+          \new Voice = "Violine2"
+          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
       >>
     }
 
@@ -160,8 +154,8 @@
       \include #(string-append prefix "Header.ily")
       <<
           \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+          \new Voice = "Violine2"
+          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
       >>
     }
   }
@@ -172,8 +166,8 @@
       \include #(string-append prefix "Header.ily")
       <<
           \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+          \new Voice = "Violine2"
+          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
       >>
     }
 
@@ -182,8 +176,8 @@
       \include #(string-append prefix "Header.ily")
       <<
           \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+          \new Voice = "Violine2"
+          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
       >>
     }
   }
