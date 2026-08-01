@@ -16,7 +16,7 @@
   d4 d2 | % 16
   c4 r4 r4 | % 17
   R2.*6 | % 23
-  r8 g''8 ( fis8 fis8 e8 es8 ) | % 24
+  r8 g''8 ( fis8 f8 e8 es8 ) | % 24
   d8 ( es8 f8 as8 g8 f8 ) | % 25
   e8 ( f8 g8 b8 as8 g8 ) | % 26
   as8 ( g8 f8 es8 d8 c8 ) | % 27
