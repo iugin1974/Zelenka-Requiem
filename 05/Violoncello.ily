@@ -8,7 +8,7 @@
     c8 c8 c8 r8 r8 c8 g'8 g,8 | % 8
     c8 _\f c8 c8 r8 g8 g8 g8 r8 | % 9
     r8 c8 c8 fis,8 g8 g8 g8 r8 | \barNumberCheck #10
-    es'8 es8 es8 r8 f8 f8 f8 r8 | % 11
+    e'8 e8 e8 r8 f8 f8 f8 r8 | % 11
     d8 d8 d8 r8 es8 es8 es8 r8 | % 12
     b8 b8 b8 r8 b8 b8 b8 r8 | % 13
     b8 b8 b8 r8 b8 b8 b8 r8 | % 14

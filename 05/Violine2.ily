@@ -5,7 +5,7 @@
     h4 r4 b16. g32 g16. g32 g8 g'8 | % 5
     f16. as,32 as16. as32 as8 f'8 d16. f,32 f16. f32 f8 f'8 | % 6
     es16. g,32 g16. g32 g8 es'8 d16. d,32 d16. d32 d8 d'8 | % 7
-    c16. es,32 es16. es32 es8 c'8 h8 c16. c,32 c8 b8 | % 8
+    c16. es,32 es16. es32 es8 c'8 h8 c16. c,32 c8 h8 | % 8
     c16. es32 es16. es32 d8 c'8 h16. d,32 d16. d32 d8 d'8 | % 9
     c16. es,32 es16. es32 es8 es'8 es4 r4 | \barNumberCheck #10
     e16. g,32 g16. g32 g8 g'8 f16. as,32 as16. as32 as8 f'8 | % 11

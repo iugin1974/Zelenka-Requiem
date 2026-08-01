@@ -19,8 +19,8 @@
     g8 g8 g8 r8 g8 g8 g8 r8 | % 19
     g8 g8 g8 r8 g8 g8 g8 r8 | \barNumberCheck #20
     c,8 c8 f8 r8 f8 f8 a8 r8 | % 21
-    g2 g8 g8 f8 f8 | % 22
-    f8 f8 es8 es8 d2 | % 23
+    g2:8 g8 g8 f8 f8 | % 22
+    f8 f8 es8 es8 d2:8 | % 23
     es8 g8 g8 r8 g8 g8 g8 r8 | % 24
-    g2 g2 -\fermata \bar "|."
+    g2:8 g2 -\fermata \bar "|."
     }

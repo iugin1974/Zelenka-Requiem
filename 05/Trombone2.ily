@@ -16,11 +16,11 @@
     es8 es8 es8 r8 es8 es8 es8 r8 | % 16
     d8 c8 r4 g4 r4 | % 17
     g4 r4 g8 d'8 c8 c8 | % 18
-    d2 es8 es8 es8 r8 | % 19
+    d2:8 es8 es8 es8 r8 | % 19
     es8 es8 es8 r8 e8 e8 e8 r8 | \barNumberCheck #20
     f8 c8 c8 r8 d8 d8 es8 r8 | % 21
-    d2 e8 e8 d8 c8 | % 22
-    d8 d8 c8 c8 c8 c8 b8 b8 | % 23
+    d2:8 e8 e8 d8 c8 | % 22
+    d8 d8 c8 c8 c8 c8 h8 h8 | % 23
     c8 c8 c8 r8 d8 d8 d8 r8 | % 24
     es8 c8 d8 d8 e2 -\fermata \bar "|."
     }

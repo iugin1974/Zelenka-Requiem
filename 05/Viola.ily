@@ -2,7 +2,7 @@
     es16. _\f g,32 g16. g32 g8 r8 h16. h32 h16. h32 h8 r8 | % 2
     r8 g'8 es8 es8 g8 as8 g8 a8 | % 3
     d,8 as8 g8 a8 d8 as8 g8 a8 | % 4
-    d,4 r4 es'16. es32 es16. es32 es8 r8 | % 5
+    d,4 r4 e'16. e32 e16. e32 e8 r8 | % 5
     c16. c32 c16. c32 c8 r8 b16. b32 b16. b32 b8 r8 | % 6
     b16. b32 b16. b32 b8 r8 d16. f32 f16. f32 f8 r8 | % 7
     es16. g,32 g16. g32 g8 r8 r8 g8 g8 g8 | % 8
