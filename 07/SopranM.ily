@@ -10,9 +10,9 @@
   c8. \trill [ b32 c32 ] d8. \trill [ c32 d32 ] | % 23
   es8. ( [ d32 es32 ] f16 [ es16 ) ] d8 -! | % 24
   d8 c8 r4 | % 25
-  \acciaccatura { f8 ( } es4. ) \once \omit TupletBracket
+  \acciaccatura { f8 ( } e4. ) \once \omit TupletBracket
   \times 2/3 {
-    f16 ( [ es16 f16 ) ]
+    f16 ( [ e16 f16 ) ]
   }
   | % 26
   g16 ( [ f16 ) ] e16 ( [ d16 ) ] c16 ( [ b16 ) ] a16 ( [ g16 ) ] | % 27
