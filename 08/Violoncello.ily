@@ -38,7 +38,7 @@
     d1 g,2 | % 38
     c2 d2 d,2 | % 39
     g1 c2 | \barNumberCheck #40
-    f2 ~ f2 b,2 | % 41
+    f1 b,2 | % 41
     es1 a,2 | % 42
     d1 g,2 | % 43
     c2 d1 | % 44
