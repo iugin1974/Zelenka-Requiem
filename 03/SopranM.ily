@@ -6,7 +6,7 @@
   r2 b2 | % 24
   c2 ( d2 ) | % 25
   g,2 c2 | % 26
-  c2 ( b2 ) | % 27
+  c2 ( h2 ) | % 27
   c2 c2 | % 28
   des2 ( g,2 ) | % 29
   as2 f'4 ( es4 ) | \barNumberCheck #30
