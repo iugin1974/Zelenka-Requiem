@@ -2,7 +2,7 @@
   g4 -\f r4 r2 | % 2
   R1*3 | % 5
   r8 b8 -\p b,8 b'8 ~ b16 g16 f16 es16 \grace {
-    es32 ( g32
+    f32 ( g32
   } as8. ) as16 | % 6
   as8 g8 r8 g8 as4 b4 ~ | % 7
   b8 as16 ( g16 ) as16 ( b16 as16 b16 ) g16 ( f16 es16 f16 )
