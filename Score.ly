@@ -3,6 +3,7 @@
 \include "Cover.ily"
 \include "Commons.ily"
 #(set-global-staff-size 15)
+\pointAndClickOff
 
 \paper {
   markup-system-spacing.padding = #5
