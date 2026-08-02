@@ -39,7 +39,7 @@
   g'4. f8 es8 [ d8 ] c4 | % 42
   f4. es8 d8 [ c8 ] b4 | % 43
   es4. d8 c8 [ d8 ] es4 ~ | % 44
-  es4 d4 d4 es4 ~ | % 45
+  es4 d4 es4 es4 ~ | % 45
   es8 [ d8 c8 b8 ] a4 d4 ~ | % 46
   d8 [ c8 b8 a8 ] g4 c4 ~ | % 47
   c4 b4 a4 d4 ~ | % 48
