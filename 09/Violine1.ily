@@ -21,7 +21,7 @@
   f16. as32 g16. b32 as4 ~ as16. f32 b16. as32 | % 8
   g16. d32 es16. c32 \acciaccatura { es8 ( } d8. ) es16 as,4 ~
   as16. c32 b16. as32 | % 9
-  g16 es'16 \times 2/3 {
+  g16[ es'16] \times 2/3 {
     es16 d16 es16
   }
   f,4 \trill es4 r4 | \barNumberCheck #10
@@ -77,7 +77,7 @@
   f16. as32 g16. b32 as4 ~ as16. f32 b16. as32 | % 32
   g16. d32 es16. c32 \acciaccatura { es8 ( } d8. ) es16 as,4 ~
   as16. c32 b16. as32 | % 33
-  g16 es'16 \times 2/3 {
+  g16[ es'16] \times 2/3 {
     es16 d16 es16
   }
   f,4 \trill es4 r4 \bar "|."
