@@ -13,7 +13,7 @@
   d8 d8 d8 c8 b8 b8 c8 as8 | % 13
   g4. g8 g4 r8 h8 | % 14
   c8 d8 c8 h8 r4 r8 h8 | % 15
-  es8 d8 c8 b8 c8 c8 as4 ( | % 16
+  es8 d8 c8 h8 c8 c8 as4 ( | % 16
   g2 ) g2 \fermata \bar "||"
   c4. -\f c8 c4 c4 | % 18
   c4. c8 h4 c4 | % 19

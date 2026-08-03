@@ -8,7 +8,7 @@
   g8 es8 r4 r8 as4 g8 | % 8
   f8 d8 es8 f8 g,4. g8 | % 9
   c4 r8 e8 f8 e8 f8 c8 | \barNumberCheck #10
-  r4 r8 c8 f8 es8 f8 c8 | % 11
+  r4 r8 c8 f8 e8 f8 c8 | % 11
   r8 c'4 b8 as8 f8 r4 | % 12
   r8 b4 as8 g8 es8 as8 f8 | % 13
   g,4. g8 c4 r8 g'8 | % 14
