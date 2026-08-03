@@ -9,5 +9,5 @@
   d8  h'8 c8 d8  es4 d4 | % 9
   c4 d8  es8  f4 es4 | \barNumberCheck #10
   d4 d4 d8  c8 es8 d8  | % 11
-  c2 b2 \fermata \bar "|."
+  c2 h2 \fermata \bar "|."
 }
