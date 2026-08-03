@@ -1,5 +1,5 @@
 {
- Sanc -- _ tus, Sanc -- tus, Sanc -- tus, Sanc -- tus Do -- mi -- nus,
+ Sanc -- tus, Sanc -- tus, Sanc -- tus, Sanc -- tus Do -- mi -- nus,
  Sanc -- tus Do -- mi -- nus, Sanc -- tus Do -- mi -- nus,
  Do -- mi -- nus De -- us Sa -- ba -- oth, De -- us
  Sa -- ba -- oth Ple -- ni sunt coe -- li,
