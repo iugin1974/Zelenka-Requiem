@@ -21,6 +21,6 @@
     as8 as8 as8 r8 g8 g8 fis8 r8 | % 21
     g8 g8 g8 r8 c8 c8 f8 r8 | % 22
     h,8 h8 c8 c8 g8 g8 g8 g8 | % 23
-    c8 _\f c8 c8 r8 g8 g8 g8 r8 | % 24
+    c8^\solo _\f c8 c8 r8 g8 g8 g8 r8 | % 24
     c8 c8 g'8 g,8 c2 -\fermata \bar "|."
     }

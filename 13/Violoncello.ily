@@ -22,7 +22,7 @@
     c2 r4 b4 | % 22
     c8  a8 d8 c8  b8  g8 g'8 f8  | % 23
     es8  c8 c'8 b8  as8  f8 g8 g,8  | % 24
-    c4 c'4. _\p h16  a16  h4 | % 25
+    c4 c'4.^\solo _\p h16  a16  h4 | % 25
     c4 g4. fis16  e16  fis4 | % 26
     g4 es4 f8  d8 g8 f8  | % 27
     es8  c8 as'8 f8  g4 g,4 | % 28

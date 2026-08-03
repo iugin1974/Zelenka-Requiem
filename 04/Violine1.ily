@@ -21,7 +21,7 @@
   e8 ( f8 g8 b8 as8 g8 ) | % 26
   as8 ( g8 f8 es8 d8 c8 ) | % 27
   h8 ( c8 d8 f8 ) g,8 ( h8 ) | % 28
-  c8 ( d8 ) <g,, f' h>2 | % 29
+  c8 ( d8 ) \slashedGrace c8 <g, f' h>2 | % 29
   c'8 d,8 d2 \trill | \barNumberCheck #30
   c2 g''4 | % 31
   c,4. h8 c8 d8 | % 32

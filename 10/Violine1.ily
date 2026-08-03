@@ -34,7 +34,7 @@
   d8 b8 es2 d4 | % 36
   r4 c8 c8 d8 d8 g8 f16 g16 | % 37
   es8 c8 c2 h4 | % 38
-  c8 c8 es8 es8 d2 | % 39
+  c8 c8 es8 es8 d2:8 | % 39
   c4 r4 r2 | \barNumberCheck #40
   R1 \bar "||"
   g'4. f8 es8 d8 c4 | % 42

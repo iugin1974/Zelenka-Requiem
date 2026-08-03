@@ -7,7 +7,7 @@
   es8 es8 es8 e8 | % 7
   f8 f8 f8 f8 | % 8
   f8 f8 f8 e8 | % 9
-  f8 f8 f8 f8 | \barNumberCheck #10
+  f2:8 | \barNumberCheck #10
   f8 f8 f8 e8 | % 11
   f8 f8 f8 f8 | % 12
   g8 a8 b8 b,8 | % 13
@@ -16,19 +16,19 @@
   b8 b8 d8 b8 | % 16
   f'4 r4 | % 17
   r8 b,8 d8 b8 | % 18
-  c8 c8 c8 c8 | % 19
-  d8 d8 d8 d8 | \barNumberCheck #20
-  es8 es8 es8 es8 | % 21
-  f8 f8 f8 f8 | % 22
-  f8 f8 f8 f8 | % 23
+  c2:8 | % 19
+  d2:8 | \barNumberCheck #20
+  es2:8 | % 21
+  f2:8 | % 22
+  f2:8 | % 23
   f8 f8 f8 e8 | % 24
   f8 f8 r4 | % 25
-  c8 c8 c8 c8 | % 26
-  c8 c8 c8 c8 | % 27
+  c2:8 | % 26
+  c2:8 | % 27
   f,8 f8 g8 g8 | % 28
   a8 a8 b8 b8 | % 29
   c4 r4 | \barNumberCheck #30
-  c4 r4 | % 31
+  c4^\tasto r4 | % 31
   c4 r4 | % 32
   c4 r4 | % 33
   c4 r8 c8 | % 34
@@ -37,25 +37,25 @@
   f8 f'8 a8 f8 | % 37
   c8 c8 c8 c8 | % 38
   r8 f8 a8 f8 | % 39
-  g8 g8 g8 g8 | \barNumberCheck #40
-  a8 a8 a8 a8 | % 41
+  g2:8 | \barNumberCheck #40
+  a2:8 | % 41
   b8 b,8 b8 b8 | % 42
-  c8 c8 c8 c8 | % 43
+  c2:8 | % 43
   c8 c8 c8 c8 | % 44
-  c8 c8 c8 c8 | % 45
+  c2:8 | % 45
   c8 c8 c8 c8 | % 46
-  c8 c8 c8 c8 | % 47
+  c2:8 | % 47
   d8 e8 f8 f8 | % 48
   g8 a8 b8 b,8 | % 49
   f'8 b8 f8 f,8 | \barNumberCheck #50
   b8 b8 d8 b8 | % 51
   f'8 f8 f,4 | % 52
   r8 b8 d8 b8 | % 53
-  c8 c8 c8 c8 | % 54
-  d8 d8 d8 d8 | % 55
+  c2:8 | % 54
+  d2:8 | % 55
   es8. es16 es8 e8 | % 56
   f4 r4 | % 57
-  f4 r4 | % 58
+  f4^\tasto r4 | % 58
   f4 -! r4 | % 59
   f4 -! r4 | \barNumberCheck #60
   f4 -! r8 f8 -! | % 61
@@ -71,8 +71,8 @@
   b8 b8 d8 b8 | % 71
   f'4 f,4 | % 72
   r8 b8 d8 b8 | % 73
-  c8 c8 c8 c8 | % 74
-  d8 d8 d8 d8 | % 75
+  c2:8 | % 74
+  d2:8 | % 75
   es8 es8 es8 e8 | % 76
   f8 f8 f8 f8 | % 77
   f8 f8 f8 e8 | % 78

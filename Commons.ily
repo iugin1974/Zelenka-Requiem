@@ -150,6 +150,12 @@ tastoSolo =
      \markup {\italic{Tasto solo}}
    #})
 
+tasto =
+#(define-scheme-function (parser location)()
+   #{
+     \markup {\italic{Tasto}}
+   #})
+
 tutti = #(define-scheme-function (parser location)()
            #{
              \markup {\italic{(Tutti)}}

@@ -1,6 +1,6 @@
 \relative g' {
   R2. | % 2
-  r4 g4 as4 | % 3
+  r4 g4\f as4 | % 3
   h,2 c4 | % 4
   d4 d'4. c8 | % 5
   h2 -\f c4 | % 6

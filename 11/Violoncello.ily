@@ -11,11 +11,11 @@
   g4 c4. b8 | % 11
   as4 as,2 | % 12
   b2. ~ | % 13
-  b2 d4 -\p | % 14
+  b2 d4^\solo -\p | % 14
   es2. | % 15
   as2. ~ | % 16
   as2 g4 | % 17
-  f2. -\f |
+  f2.^\tutti -\f |
   f4 \clef "alto" <<
     {
       a'4 a4 | % 19
@@ -37,7 +37,7 @@
   b2 c4 ~ | % 28
   c4 d4. d,8 | % 29
   g2. -\fermata \bar "||"
-  g'2 -\p r4 | % 31
+  g'2^\solo -\p r4 | % 31
   d'4 b4 g4 | % 32
   fis4 g4 r4 | % 33
   c4 f,2 | % 34
@@ -53,7 +53,7 @@
   es4 f4 f,4 | % 44
   b2 d4 | % 45
   es2. | % 46
-  f2. ~ | % 47
+  f2.^\tasto ~ | % 47
   f2. ~ | % 48
   f2. ~ | % 49
   f4. fis8  g8 c,8  | \barNumberCheck #50
