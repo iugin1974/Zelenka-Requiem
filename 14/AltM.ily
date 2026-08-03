@@ -6,7 +6,7 @@
     a8 ( [ d,8 ) ] d4 r4 g8 g8 | % 6
     g4 g4 r4 f8 f8 | % 7
     f4 f4 f8 ( [ es8 ) ] d4 | % 8
-    d4. d8 d2 | % 9
+    d4. d8 es2 | % 9
     d4. -\p d8 e2 | \barNumberCheck #10
     R1*3 | % 13
     R1*4 | % 17
