@@ -6,7 +6,7 @@
     es8  c8 es8 f8  g2 ~ | % 6
     g8  fis16 e16  fis4 g4 g,4 | % 7
     r4 f'4 g8  e8 a8 g8  | % 8
-    fis8  d8 g8 fis8  e8  c8 fis8 es8  | % 9
+    fis8  d8 g8 f8  e8  c8 f8 es8  | % 9
     d8  b8  b'4. as16  g16  as4 | \barNumberCheck #10
     b4 r8 a8 b8  g8 c8 b8  | % 11
     a8  f8 b8 as8  g8  es8  es4 | % 12

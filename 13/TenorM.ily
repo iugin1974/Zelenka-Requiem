@@ -18,7 +18,7 @@
   b8 [ g8 ] es4 as4 g4 | % 18
   g4 es'4 f8 d8 g8 f8 | % 19
   es8 c8 c4 d2 | \barNumberCheck #20
-  c4 c4. b16 [ a16 ] b4 | % 21
+  c4 c4. h16 [ a16 ] h4 | % 21
   c2 r4 d4 | % 22
   es8 c8 a8 a8 d8 d8 h8 h8 | % 23
   c8 es4 d8 c8 as8 g4 | % 24
