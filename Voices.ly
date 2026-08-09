@@ -4,7 +4,6 @@
 \include "Commons.ily"
 #(set-global-staff-size 15)
 \pointAndClickOff
-\noDym
 
 \paper {
   markup-system-spacing.padding = #5
@@ -68,6 +67,7 @@
           >>
         >>
       >>
+      \pianoLayout
     }
   }
 
@@ -108,11 +108,11 @@
           \new Staff  <<
             \clef "bass"
             \include #(string-append prefix "Global.ily")
-            \include #(string-append prefix "Viola.ily") \\
             \include #(string-append prefix "Violoncello.ily")
           >>
         >>
       >>
+      \pianoLayout
     }
   }
 
@@ -158,6 +158,7 @@
           >>
         >>
       >>
+      \pianoLayout
     }
   }
 
@@ -195,6 +196,7 @@
           >>
         >>
       >>
+      \pianoLayout
     }
     \markup{\huge{Kyrie da capo}}
   }
@@ -241,6 +243,7 @@
           >>
         >>
       >>
+      \pianoLayout
     }
   }
 
@@ -276,6 +279,7 @@
           >>
         >>
       >>
+      \pianoLayout
     }
   }
 
@@ -303,6 +307,7 @@
           >>
         >>
       >>
+      \pianoLayout
     }
   }
 
@@ -330,6 +335,7 @@
           >>
         >>
       >>
+      \pianoLayout
     }
   }
 
@@ -355,6 +361,7 @@
           >>
         >>
       >>
+      \pianoLayout
     }
   }
 
@@ -401,6 +408,7 @@
           >>
         >>
       >>
+      \pianoLayout
     }
   }
 
@@ -448,6 +456,7 @@
           >>
         >>
       >>
+      \pianoLayout
     }
   }
 
@@ -483,6 +492,7 @@
         >>
         \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
+      \pianoLayout
     }
   }
 
@@ -529,6 +539,7 @@
           >>
         >>
       >>
+      \pianoLayout
     }
   }
 
@@ -573,6 +584,7 @@
           >>
         >>
       >>
+      \pianoLayout
     }
   }
 
@@ -601,6 +613,7 @@
           >>
         >>
       >>
+      \pianoLayout
     }
   }
 
@@ -647,6 +660,7 @@
           >>
         >>
       >>
+      \pianoLayout
     }
   }
 } % end book
