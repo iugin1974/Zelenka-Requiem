@@ -1,6 +1,6 @@
 \header {
 	piece = "09. Liber scriptus"
 	instrument = "Solo A"
-	meter = "03:05"
+	meter = "02:40"
 }
 

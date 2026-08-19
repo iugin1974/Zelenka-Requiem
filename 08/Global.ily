@@ -2,7 +2,7 @@
 \compressEmptyMeasures
 \key g \minor
 \time 3/2
-\tempo "Andante" 2=100
+\tempo "Andante" 2=110
 \accidentalStyle modern
 s1.*53
 \bar "|."
