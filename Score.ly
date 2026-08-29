@@ -6,6 +6,8 @@
 \pointAndClickOff
 
 \paper {
+  tocItemMarkup = \tocItemWithDotsMarkup
+  system-separator-markup = \slashSeparator
   markup-system-spacing.padding = #5
   scoreTitleMarkup = \markup {
     \column {
@@ -27,8 +29,14 @@
     \markup \null
   } %ends titling
 
+
+\bookpart {
+\markuplist \table-of-contents
+}
+
   \bookpart {
     #(define prefix "01/")
+    \tocItem \markup "Requiem (Chor)"
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -75,15 +83,12 @@
           << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
         >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
           \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -91,6 +96,7 @@
 
   \bookpart {
     #(define prefix "02/")
+    \tocItem \markup "Te decet hymnus (Soli SATB)"
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -127,15 +133,12 @@
           << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
         >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
           \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -143,6 +146,7 @@
 
   \bookpart {
     #(define prefix "03/")
+    \tocItem \markup "Kyrie (Chor)"
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -188,15 +192,12 @@
           << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
         >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
           \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -205,6 +206,7 @@
 
   \bookpart {
     #(define prefix "04/")
+    \tocItem \markup "Christe (Soli SA)"
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -248,6 +250,7 @@
 
   \bookpart {
     #(define prefix "05/")
+    \tocItem \markup "Dies irae (Chor)"
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -317,6 +320,7 @@
 
   \bookpart {
     #(define prefix "06/")
+    \tocItem \markup "Quantus tremor (Duett ST)"
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -361,6 +365,7 @@
 
   \bookpart {
     #(define prefix "07/")
+    \tocItem \markup "Tuba mirum (Solo S)"
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -398,6 +403,7 @@
 
   \bookpart {
     #(define prefix "08/")
+    \tocItem \markup "Mors stupebit (Solo B)"
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -435,6 +441,7 @@
 
   \bookpart {
     #(define prefix "09/")
+    \tocItem \markup "Liber scriptus (Solo A)"
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -463,6 +470,7 @@
 
   \bookpart {
     #(define prefix "10/")
+    \tocItem \markup "Lacrymosa (Chor)"
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -533,6 +541,7 @@
 
   \bookpart {
     #(define prefix "11/")
+    \tocItem \markup "Sanctus (Chor und Soli ST)"
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -593,6 +602,7 @@
 
   \bookpart {
     #(define prefix "12/")
+    \tocItem \markup "Benedictus (Terzett SAB)"
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -629,6 +639,7 @@
 
   \bookpart {
     #(define prefix "13/")
+    \tocItem \markup "Osanna (Chor)"
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -689,6 +700,7 @@
 
   \bookpart {
     #(define prefix "14/")
+    \tocItem \markup "Agnus Dei (Chor und Soli SAT)"
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -751,6 +763,7 @@
 
   \bookpart {
     #(define prefix "15/")
+    \tocItem \markup "Lux eterna (Solo B)"
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -785,6 +798,7 @@
 
   \bookpart {
     #(define prefix "16/")
+    \tocItem \markup "Cum Sanctis (Chor)"
     \score {
       \include #(string-append prefix "Header.ily")
       <<
