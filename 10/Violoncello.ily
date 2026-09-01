@@ -40,8 +40,8 @@
   c4 c'8 c8 f,8 f8 b8 as16 b16 | \barNumberCheck #30
   es,8 es8 as8 as8 d,4 es4 | % 31
   b2 b2 | % 32
-  es4 b'8 b8 c8 c8 f8 es16 f16 | % 33
-  d8 b8 es,8 es8 f8 f8 b8 as16 b16 | % 34
+  es4 \clef "treble" b'8 b8 c8 c8 f8 es16 f16 | % 33
+  d8[ b8] \clef "bass" es,8 es8 f8 f8 b8 as16 b16 | % 34
   g8 es8 b'2 a4 | % 35
   b4 g4 f2 | % 36
   es2 d2 | % 37
