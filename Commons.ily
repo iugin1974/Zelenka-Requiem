@@ -225,3 +225,11 @@ pianoLayout = \layout {
     \omit Dynamics.DynamicText
   }
 }
+
+blx = #(define-music-function (parser location m)(ly:music?)
+         #{
+           \bassFigureExtendersOn
+           $m
+           \bassFigureExtendersOff
+         #}
+         )
