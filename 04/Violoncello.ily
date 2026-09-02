@@ -1,5 +1,5 @@
 \relative c' {
-  c4 c,4 es4 | % 2
+  c4-\solo c,4 es4 | % 2
   f4 g4 g,4 | % 3
   c2 b4 | % 4
   c4 d2 | % 5
