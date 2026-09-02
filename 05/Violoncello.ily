@@ -1,5 +1,5 @@
 \relative c {
-    c8 _\f c8 c8 r8 g8 g8 g8 r8 | % 2
+    c8-\solo _\f c8 c8 r8 g8 g8 g8 r8 | % 2
     c8 c8 c8 fis,8 g8 g'8 r8 fis8 | % 3
     g8 g,8 r8 fis'8 g8 g,8 r8 fis'8 | % 4
     g16. g,32 g16. g32 g8 f'8 e8 e8 e8 r8 | % 5
