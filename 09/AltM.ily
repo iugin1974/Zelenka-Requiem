@@ -33,6 +33,6 @@
   a4 c8 f,8 d'8 b8 as16 ( [ c16 ) ] b16 ( [ as16 ) ] | % 24
   g8 d8 es8 as8 g8. [ f32 es32 ] \grace { es32 ( [ f32 ] } f4 ) \trill
   | % 25
-  es4 e4 \rest e2 \rest | % 26
+  es4 r4 r2 | % 26
   R1*8 \bar "|."
 }
