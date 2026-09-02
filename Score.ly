@@ -233,15 +233,12 @@
           << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
         >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
-          \new Staff
+         \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
     }
     \markup{\huge{Kyrie da capo}}
@@ -304,15 +301,12 @@
           << \clef "alto" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Viola.ily") >>
         >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
-          \new Staff
+         \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -350,15 +344,12 @@
           << \clef "alto" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Viola.ily") >>
         >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
-          \new Staff
+         \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -388,15 +379,12 @@
           << \clef "alto" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Viola.ily") >>
         >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
-          \new Staff
+         \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -426,15 +414,12 @@
           << \clef "alto" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Viola.ily") >>
         >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
-          \new Staff
+         \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -454,15 +439,12 @@
         \new Voice = "Violine1"
         << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
-          \new Staff
+         \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -524,15 +506,12 @@
           << \clef "alto" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Viola.ily") >>
         >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
-          \new Staff
+         \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -587,15 +566,12 @@
           << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
         >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
-          \new Staff
+         \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -623,15 +599,12 @@
           \new Lyrics \lyricsto "BassM" \include #(string-append prefix "BassT.ily")
         >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
-          \new Staff
+         \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -685,15 +658,12 @@
           << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
         >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
-          \new Staff
+         \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -746,15 +716,12 @@
           << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
         >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
-          \new Staff
+         \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -782,15 +749,12 @@
           << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
         >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
-          \new Staff
+         \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -844,15 +808,12 @@
           << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine2.ily") >>
         >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
-          \new Staff
+         \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -926,15 +887,12 @@
           << \clef "alto" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Viola.ily") >>
         >>
 
-        \new PianoStaff <<
-          \new Staff << \include #(string-append prefix "Global.ily") \include #(string-append prefix "RH.ily") >>
-          \new Staff
+         \new Staff
           <<
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-        >>
-        \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
       >>
       \layout {
         \context {
