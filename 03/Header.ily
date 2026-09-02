@@ -1,6 +1,6 @@
 \header {
 	piece = "03. Kyrie"
 	instrument = "Chor"
-	meter = "02:30"
+	meter = "02:05"
 }
 
