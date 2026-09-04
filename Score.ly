@@ -88,7 +88,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -138,7 +140,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -197,7 +201,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -238,7 +244,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
     }
     \markup{\huge{Kyrie da capo}}
@@ -306,7 +314,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -349,7 +359,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -384,7 +396,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -419,7 +433,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -444,7 +460,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -511,7 +529,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -571,7 +591,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -604,7 +626,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -663,7 +687,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -721,7 +747,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -754,7 +782,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -813,7 +843,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
     }
   }
@@ -892,7 +924,9 @@
             \clef "bass" \include #(string-append prefix "Global.ily")
             \new Voice { \include #(string-append prefix "Violoncello.ily") }
           >>
-          \new FiguredBass { \include #(string-append prefix "Continuo.ily") }
+          \new FiguredBass { 
+            \override BassFigure.font-size = #1
+            \include #(string-append prefix "Continuo.ily") }
       >>
       \layout {
         \context {
