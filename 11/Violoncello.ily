@@ -16,7 +16,7 @@
   as2. ~ | % 16
   as2 g4 | % 17
   f2.^\tutti -\f |
-  f4 \clef "alto" <<
+  f4 \clef "treble" <<
     {
       a'4 a4 | % 19
       b4
@@ -26,7 +26,7 @@
       d
     }
   >>
-  \clef "tenor" b4 a4 | \barNumberCheck #20
+  b4 a4 | \barNumberCheck #20
   g4 \clef "bass" es4 d4 | % 21
   c2. | % 22
   r4 f4 es4 | % 23
@@ -64,7 +64,7 @@
   as4 f4 b4 | % 55
   g4 es4 as4 | % 56
   f2 g4 | % 57
-  c,4 r4 \clef "tenor" c'4 | % 58
+  c,4 r4 \clef "treble" c'4 | % 58
   c4 f,4 f'4 | % 59
   d2 es4 |
   c2 d4 | % 61
