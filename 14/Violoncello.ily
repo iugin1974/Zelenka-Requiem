@@ -7,7 +7,7 @@
     c2 r4 f8 d8 | % 7
     b2 es4 f4 | % 8
     g4 g,4 c2 | % 9
-    r2 r4 es4 | \barNumberCheck #10
+    r2 r4 e4 | \barNumberCheck #10
     f2 g4 as8 f8 | % 11
     g4 g,4 c2 | % 12
     es1 ~ | % 13
