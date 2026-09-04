@@ -10,13 +10,13 @@
     r2 r4 e4 | \barNumberCheck #10
     f2 g4 as8 f8 | % 11
     g4 g,4 c2 | % 12
-    es1 ~ | % 13
+    es1^\solo ~ | % 13
     es1 | % 14
     e2 f2 | % 15
     f2 g4 c,4 | % 16
     f4 b,4 es4 as8 des,8 | % 17
     es2 as,4 as'4 | % 18
-    es'2 r4 es,4 -\f | % 19
+    es'2 r4 es,4^\tutti -\f | % 19
     b'2 g4 as4 | \barNumberCheck #20
     b4 b,4 es2 | % 21
     r2 r4 g4 | % 22
