@@ -23,16 +23,17 @@
     as2 b4 c8 as8 | % 23
     b4 b,4 es2 | % 24
     c2 c'2 | % 25
-    g2 r4 f8 -. g8 -. | % 26
-    as2 r4 \clef "soprano" \clef "bass" g8 f8 | % 27
+    g2 \clef "treble" r4 b'8 -. c8 -. | % 26
+    << { des2 r4 } \\ { r4 b8 as8 g4 } >> \clef "bass" g,8 f8 | % 27
     e2 es2 | % 28
     des2 r2 | % 29
     r4 des4 c2 | \barNumberCheck #30
     r4 c'4 b2 | % 31
     r4 as4 b,2 | % 32
     c1 | % 33
-    f,2 \clef "soprano" f''4 -. -\f f4 -. | % 34
-    c'4 c4 h8 g8 b4 \clef "bass" | % 35
+    f,2 \clef "treble" f''4 -. -\f f4 -. | % 34
+    << { c'4 c4 h8 g8 b4 } \\
+       { e,8 c8 es4 d des } >> \clef "bass" | % 35
     f,4 f4 e8 c8 es4 | % 36
     d4 des4 c4 f4 ~ | % 37
     f4 e4 as2 | % 38
