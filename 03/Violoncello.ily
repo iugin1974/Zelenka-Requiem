@@ -38,7 +38,7 @@
   c2 d2 | % 25
   g,2 c2 ~ | % 26
   c2 h2 | % 27
-  c2 \clef "bass" }
+  c2 }
      \\
      {
        g4 f |
@@ -57,7 +57,7 @@
   des1 | % 32
   r2 as2 | % 33
   b2 c2 | % 34
-  f,2 \clef "bass" f'4 es4 | % 35
+  f,2 \clef "treble_8" f'4 es4 | % 35
   des4 c4 b4 as4 | % 36
   g2 es'4 des4 | % 37
   c4 b4 as4 g4 | % 38
