@@ -6,6 +6,7 @@
 \accidentalStyle modern
 s2.*29
 \bar "||"
+\tempo 4 =135
 s2.*39
 \bar "|."
 }

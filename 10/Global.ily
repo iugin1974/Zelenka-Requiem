@@ -9,7 +9,7 @@ s1.*21
 \tempo "Andante" 4=85
 s1*19
 \bar "||"
-\tempo "Presto" 4=100
+\tempo "Presto" 4=110
 s1*23
 \bar "|."
 }
