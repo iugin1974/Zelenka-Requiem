@@ -1,11 +1,11 @@
 \relative g' {
-  R2.*4 | % 5
+  \cueVc { R2.*4 } | % 5
   g2. -\f | % 6
   g2 r4 | % 7
-  R2.*5 | % 12
+  \cueVc { R2.*5 } | % 12
   f2 -\f es4 | % 13
   d2 r4 | % 14
-  R2.*3 | % 17
+  \cueVc { R2.*3 } | % 17
   c2 d8  es8  | % 18
   f2 es4 | % 19
   d2 d4 | \barNumberCheck #20
@@ -19,8 +19,8 @@
   f4 g2 ~ | % 28
   g4 g4 fis4 | % 29
   g2. -\fermata \bar "||"
-  R2.*13 |
-  R2.*8 |
+  \cueVc { R2.*13 } |
+  \cueVc { R2.*8 } |
   R2. | % 52
   r4 r4 g4 -\f | % 53
   g4 g4 g4 | % 54

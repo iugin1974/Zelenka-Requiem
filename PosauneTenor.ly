@@ -16,6 +16,8 @@
   }
 }
 
+#(define quoteName "violoncello")
+
 \book {
   \bookOutputName "Requiem - Trombone Tenor"
 
@@ -29,6 +31,11 @@
 
   \bookpart {
     #(define prefix "01/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -41,6 +48,11 @@
     \markup\tacet{"02. Te decet hymnus"}
 
     #(define prefix "03/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -53,6 +65,11 @@
     \markup\tacet{"04. Christe"}
 
     #(define prefix "05/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -69,6 +86,11 @@
 
   \bookpart {
     #(define prefix "10/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -81,6 +103,11 @@
     }
 
     #(define prefix "11/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -93,6 +120,11 @@
     \markup\tacet{"12. Benedictus"}
 
     #(define prefix "13/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -103,6 +135,11 @@
     }
 
     #(define prefix "14/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -116,6 +153,11 @@
 
   \bookpart {
     #(define prefix "16/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<

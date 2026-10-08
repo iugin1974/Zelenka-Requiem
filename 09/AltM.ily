@@ -1,5 +1,5 @@
 \relative es' {
-  R1*8 | % 9
+  \cueVc { R1*8 } | % 9
   r2 r4 b'8 \grace { as32 ( [ g32 f32 ] } es8 ) | \barNumberCheck #10
   \grace { as32 ( [ b32 ] } c8 ) b8 \once \omit TupletBracket
   \times 2/3 {
@@ -34,5 +34,5 @@
   g8 d8 es8 as8 g8. [ f32 es32 ] \grace { es32 ( [ f32 ] } f4 ) \trill
   | % 25
   es4 r4 r2 | % 26
-  R1*8 \bar "|."
+  \cueVc { R1*8 } \bar "|."
 }

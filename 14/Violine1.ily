@@ -11,7 +11,7 @@
     as4. -\p d8 h4 c4 | % 11
     c4. h8 c2 | % 12
     R1 | % 13
-    R1*5 | % 18
+    \cueVc { R1*5 } | % 18
     r2 r4 g'8 -\f g8 | % 19
     f2 g4 f4 | \barNumberCheck #20
     f2 es2 | % 21

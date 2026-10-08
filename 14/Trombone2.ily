@@ -7,7 +7,7 @@
     e4 e4 r4 c8 d8 | % 7
     d4 d4 b4 d8 c8 | % 8
     c4. h8 c2 | % 9
-    R1*3 | % 12
+    \cueVc { R1*3 } | % 12
     b1^\soloTenuto ~ | % 13
     b1 ~ | % 14
     b4 r4 c2 | % 15
@@ -17,7 +17,7 @@
     r2 r4 b8 -\f b8 | % 19
     b2 b4 c8 es8 | \barNumberCheck #20
     es4. d8 es2 -\p | % 21
-    R1*3 | % 24
+    \cueVc { R1*3 } | % 24
     es4. -\f -\f es8 es4 c8 g8 | % 25
     g4 g4 r2 | % 26
     r2 r4 b4 | % 27

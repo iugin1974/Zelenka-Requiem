@@ -1,11 +1,11 @@
 \relative h' {
-  R2.*4 | % 5
+  \cueVc { R2.*4 } | % 5
   h2 ( -\f c4 ) | % 6
   h2 r4 | % 7
-  R2.*5 | % 12
+  \cueVc { R2.*5 } | % 12
   as2 ( g4 ) | % 13
   f2 r4 | % 14
-  R2.*3 | % 17
+  \cueVc { R2.*3 } | % 17
   a2 ( b4 ) | % 18
   a4 a4 a4 | % 19
   b2. | \barNumberCheck #20
@@ -24,7 +24,7 @@
   d'4 b4 g4 | % 33
   es'4 d4 c4 | % 34
   d4 b4 r4 | % 35
-  R2.*3 | % 38
+  \cueVc { R2.*3 } | % 38
   r8 f8 ( [ g8 a8 b8 a8 ) ] | % 39
   g4. g8 g4 | \barNumberCheck #40
   r8 a8 [ b8 c8 d8 c8 ] | % 41
@@ -32,7 +32,7 @@
   c4 b8 [ a8 ] b4 ~ |
   b4 b4 ( a4 ) | % 44
   b4 r4 r4 | % 45
-  R2.*6 |
+  \cueVc { R2.*6 } |
   r4 r4 d4-\f^\tutti | % 52
   d4 g,4 d'4 | % 53
   es2. ~ | % 54

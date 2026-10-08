@@ -1,5 +1,5 @@
 \relative g {
-  R1*6 | % 7
+  \cueVc { R1*6 } | % 7
   g1 | % 8
   c1 | % 9
   es1 | \barNumberCheck #10
@@ -14,7 +14,7 @@
   d1 ~ | % 19
   d2 c2 | \barNumberCheck #20
   h2 r2 | % 21
-  R1*6 | % 27
+  \cueVc { R1*6 } | % 27
   r2 as2 | % 28
   b2 ( c2 ) | % 29
   f,2 c'2 | \barNumberCheck #30

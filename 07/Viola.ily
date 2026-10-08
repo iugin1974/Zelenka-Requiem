@@ -15,7 +15,7 @@
   c8 d8 f8. f16 | % 15
   f8 d8 f8 d8 | % 16
   d8 c8 r4 | % 17
-  R2*8 | % 25
+  \cueVc { R2*8 } | % 25
   c8 c8 c8 c8 | % 26
   c8 c8 c8 c8 | % 27
   c4 r4 | % 28
@@ -45,7 +45,7 @@
   d8 c8 r4 | % 52
   r8 d8 f8 f8 | % 53
   es4 r4 | % 54
-  R2*2 | % 56
+  \cueVc { R2*2 } | % 56
   r4 r8 f8 | % 57
   g8 ( a8 b8 g8 ) | % 58
   f4 r8 f8 | % 59
@@ -58,7 +58,7 @@
   f8 f8 d8 b8 | % 66
   f4 r8 b8 | % 67
   f4 r4 | % 68
-  R2*2 | \barNumberCheck #70
+  \cueVc { R2*2 } | \barNumberCheck #70
   b8 b8 d8 b8 | % 71
   a8 a8 a4 | % 72
   r8 d8 f8 f8 | % 73

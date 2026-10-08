@@ -1,11 +1,11 @@
 \relative d' {
-  R2.*4 | % 5
+  \cueVc { R2.*4 } | % 5
   d2(\f es4) | % 6
   d2 r4 | % 7
-  R2.*5 | % 12
+  \cueVc { R2.*5 } | % 12
   d2 ( es4 ) | % 13
   b2 r4 | % 14
-  R2.*3 | % 17
+  \cueVc { R2.*3 } | % 17
   es2 ( d4 ) | % 18
   c2 r4 | % 19
   r4 b4 a4 | \barNumberCheck #20
@@ -19,7 +19,7 @@
   b2 a4 | % 28
   es'4 d4. d8 | % 29
   d2. -\fermata \bar "||"
-  R2.*4 | % 34
+  \cueVc { R2.*4 } | % 34
   f4^\solo d4 b4 | % 35
   a4 b4 r4 | % 36
   f'4 d4 b4 | % 37
@@ -31,7 +31,7 @@
   es4 d8 ( [ c8 ) ] d4 |
   c4 c2 | % 44
   b4 r4 r4 | % 45
-  R2.*6 |
+  \cueVc { R2.*6 } |
   R2. | % 52
   r4 r4 h4^\tutti | % 53
   h4 c4 c4 | % 54

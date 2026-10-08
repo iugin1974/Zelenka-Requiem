@@ -1,5 +1,5 @@
 \relative c' {
-    R1*13 | % 14
+    \cueVc { R1*13 } | % 14
     c1 _\f | % 15
     f1 | % 16
     as1 | % 17
@@ -57,7 +57,7 @@
     g1 | % 69
     as2 d,2 | \barNumberCheck #70
     es2 r2 | % 71
-    R1*2 | % 73
+    \cueVc { R1*2 } | % 73
     c1 | % 74
     d1 | % 75
     e2 as2 | % 76
@@ -75,7 +75,7 @@
     f2. c4 | % 88
     d1 | % 89
     es1 | \barNumberCheck #90
-    R1*2 | % 92
+    \cueVc { R1*2 } | % 92
     r2 g2 | % 93
     as2 g2 | % 94
     g2 r2 | % 95

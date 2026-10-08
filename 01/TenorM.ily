@@ -14,7 +14,7 @@
   r4 c2 d8 [ c8 ] | % 14
   h4 c4 c4. h8 | % 15
   c4 r4 r2 | % 16
-  R1*2 | % 18
+  \cueVc { R1*2 } | % 18
   r2 r4 d4^\solo ~ | % 19
   d8 c16 -. b16 -. a16 [ b16 ] c4 b16 [ a16 ] g16 [ a16 b8 ~ ] |
   \barNumberCheck #20

@@ -1,6 +1,6 @@
 \relative g' {
   g4. \f g8 g2 | % 2
-  R1*3 | % 5
+  \cueVc { R1*3 } | % 5
   r4 c4 es2 | % 6
   d8 [ c8 h8 a8 ] h4 g'8 [ es8 ] | % 7
   c1 ~ | % 8

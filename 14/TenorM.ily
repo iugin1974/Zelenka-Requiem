@@ -8,7 +8,7 @@
     d4 d4 b4 d8 [ c8 ] | % 8
     c4. h8 c2 | % 9
     c4. -\p h8 c2 | \barNumberCheck #10
-    R1*2 | % 12
+    \cueVc { R1*2 } | % 12
     r4 b8^\solo b8 es4 g,8 b8 | % 13
     es,4 es4 r4 es'8 [ des8 ] | % 14
     des4 c8 b8 as4 as4 | % 15
@@ -19,7 +19,7 @@
     b4 b4 b4 c8 [ es8 ] | \barNumberCheck #20
     es4. d8 es2 | % 21
     b4. -\p b8 b2 | % 22
-    R1*2 | % 24
+    \cueVc { R1*2 } | % 24
     es4. es8 es4 c8 g8 | % 25
     g4 g4 r2 | % 26
     r2 r4 b4 | % 27

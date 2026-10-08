@@ -1,5 +1,5 @@
 \relative g' {
-  R1*19 | \barNumberCheck #20
+  \cueVc { R1*19 } | \barNumberCheck #20
   g1 _\f | % 21
   c1 | % 22
   es1 | % 23

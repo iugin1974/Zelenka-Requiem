@@ -1,5 +1,5 @@
 \relative c' {
-  R1*7 | % 8
+  \cueVc { R1*7 } | % 8
   c4. c8 g4 g4 | % 9
   c4. fis,8 g4 g4 | \barNumberCheck #10
   e4. e8 f4 f4 | % 11

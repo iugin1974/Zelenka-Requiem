@@ -21,7 +21,7 @@
   f4 f4 f4 f4 f4 f4 | % 21
   es4 es4 d4 d4 d4 d4 \bar "||"
   \time 4/4 c4 -\f r4 r2 | % 23
-  R1*2 | % 25
+  \cueVc { R1*2 } | % 25
   r4 g8 -\f g8 a8 a8 d8 c16 d16 | % 26
   h8 g8 c2 h4 | % 27
   c4 b4 a2 | % 28
@@ -29,7 +29,7 @@
   es8 c8 es2 d4 ~ | \barNumberCheck #30
   d4 c4 b2 ~ | % 31
   b4 r4 r2 | % 32
-  R1*2 | % 34
+  \cueVc { R1*2 } | % 34
   r4 b8 b8 c8 c8 f8 es16 f16 | % 35
   d8 b8 es2 d4 | % 36
   r4 c8 c8 d8 d8 g8 f16 g16 | % 37

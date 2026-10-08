@@ -16,6 +16,9 @@
   }
 }
 
+#(define quoteName "violoncello")
+
+
 \book {
   \bookOutputName "Requiem - Violine1"
 
@@ -29,161 +32,238 @@
 
   \bookpart {
     #(define prefix "01/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
-          \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+        \new Staff
+        \new Voice = "Violine1"
+        << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
 
     #(define prefix "02/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
-          \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+        \new Staff
+        \new Voice = "Violine1"
+        << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
 
     #(define prefix "03/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
-          \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+        \new Staff
+        \new Voice = "Violine1"
+        << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
 
     #(define prefix "04/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
-          \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+        \new Staff
+        \new Voice = "Violine1"
+        << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
 
     #(define prefix "05/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
-          \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+        \new Staff
+        \new Voice = "Violine1"
+        << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
 
     #(define prefix "06/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
-          \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+        \new Staff
+        \new Voice = "Violine1"
+        << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
 
     #(define prefix "07/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
-          \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+        \new Staff
+        \new Voice = "Violine1"
+        << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
-}
+  }
 
   \bookpart {
     #(define prefix "08/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
-          \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+        \new Staff
+        \new Voice = "Violine1"
+        << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
 
     #(define prefix "09/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
-          \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+        \new Staff
+        \new Voice = "Violine1"
+        << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
 
     #(define prefix "10/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
-          \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily")
-             { s1.*21 s1*19 \pageBreak }>>
+        \new Staff
+        \new Voice = "Violine1"
+        <<
+          \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily")
+          { s1.*21 s1*19 \pageBreak }
+        >>
       >>
     }
 
     #(define prefix "11/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
-          \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+        \new Staff
+        \new Voice = "Violine1"
+        << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
 
-\markup\tacet{"12. Benedictus"}
+    \markup\tacet{"12. Benedictus"}
   }
 
   \bookpart {
     #(define prefix "13/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
-          \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+        \new Staff
+        \new Voice = "Violine1"
+        << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
 
     #(define prefix "14/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
-          \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+        \new Staff
+        \new Voice = "Violine1"
+        << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
   }
 
   \bookpart {
     #(define prefix "15/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
-          \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+        \new Staff
+        \new Voice = "Violine1"
+        << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
 
     #(define prefix "16/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
-          \new Staff
-          \new Voice = "Violine1"
-          << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
+        \new Staff
+        \new Voice = "Violine1"
+        << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
   }

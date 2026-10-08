@@ -16,6 +16,8 @@
   }
 }
 
+#(define quoteName "violoncello")
+
 \book {
   \bookOutputName "Requiem - Viola"
 
@@ -35,6 +37,11 @@
     \markup\tacet{"03. Kyrie - da Capo"}
 
     #(define prefix "05/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -45,6 +52,11 @@
     }
 
     #(define prefix "06/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -55,6 +67,11 @@
     }
 
     #(define prefix "07/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -67,6 +84,11 @@
 
   \bookpart {
     #(define prefix "08/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<
@@ -79,6 +101,11 @@
     \markup\tacet{"09. Liber scriptus"}
 
     #(define prefix "10/")
+    \addQuote #quoteName {
+      \removeWithTag #'upper {
+        \include #(string-append prefix "Violoncello.ily")
+      }
+    }
     \score {
       \include #(string-append prefix "Header.ily")
       <<

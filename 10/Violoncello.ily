@@ -23,7 +23,7 @@
   \time 4/4 c4 c8 -.^\tutti c8 -. d8 -. d8 -. g8 -. f16 -. g16 -.
   | % 23
   <<
-    {
+   \tag #'upper {
       r4 g8 g8 a8 a8 d8 c16 d16 | % 24
       h8 g8 s2. |
     } % 25

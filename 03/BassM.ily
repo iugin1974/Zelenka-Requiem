@@ -18,14 +18,14 @@
   c1 ~ | % 18
   c2 h2 | % 19
   c1 | \barNumberCheck #20
-  R1*9 | % 29
+  \cueVc { R1*9 } | % 29
   f,1 | \barNumberCheck #30
   b1 | % 31
   des1 | % 32
   r2 as2 | % 33
   b2 ( c2 ) | % 34
   f,2 r2 | % 35
-  R1*5 | \barNumberCheck #40
+  \cueVc { R1*5 } | \barNumberCheck #40
   r2 c'4 b4 | % 41
   as4 g4 f4 es4 | % 42
   des2 b'4 as4 | % 43
@@ -35,7 +35,7 @@
   f1 | % 47
   g1 | % 48
   c,2 r2 | % 49
-  R1*6 | % 55
+  \cueVc { R1*6 } | % 55
   r2 c'4 ( b4 ) | % 56
   as4 g4 f4 es4 | % 57
   des2 b'4 as4 | % 58
@@ -45,14 +45,14 @@
   h2 c2 | % 62
   as'1 | % 63
   g2 r2 | % 64
-  R1*4 | % 68
+  \cueVc { R1*4 } | % 68
   r2 es2 | % 69
   f2 g2 | \barNumberCheck #70
   c,2 c'4 ( b4 ) | % 71
   as4 b4 as4 g4 | % 72
   f4 g4 as4 b4 | % 73
   c2 c,2 | % 74
-  R1*3 | % 77
+  \cueVc { R1*3 } | % 77
   r2 des2 ( | % 78
   es2 ) f2 | % 79
   b,2 b'4 ( as4 ) | \barNumberCheck #80
@@ -63,14 +63,14 @@
   e4 d4 c4 b4 | % 85
   as2 b2 | % 86
   c2 r2 | % 87
-  R1*2 | % 89
+  \cueVc { R1*2 } | % 89
   c1 | \barNumberCheck #90
   f1 | % 91
   as1 | % 92
   r2 es2 | % 93
   f2 ( g2 ) | % 94
   c,2 r2 | % 95
-  R1*3 | % 98
+  \cueVc { R1*3 } | % 98
   r2 es'4 ( d4 ) | % 99
   c4 b4 as4 g4 | \barNumberCheck #100
   f2 d'4 ( c4 ) | % 101

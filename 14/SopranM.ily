@@ -8,14 +8,14 @@
     as4 as4 g4 as4 | % 8
     g4. g8 g2 | % 9
     g4. -\p g8 g2 | \barNumberCheck #10
-    R1*3 | % 13
-    R1*4 | % 17
+    \cueVc { R1*3 } | % 13
+    \cueVc { R1*4 } | % 17
     r2 r4 c8 c8 | % 18
     b4 b4 r4 es8 -\f^\tutti es8 | % 19
     es4 d4 es4 c4 | \barNumberCheck #20
     b4. b8 b2 | % 21
     f4. f8 g2 | % 22
-    R1*2 | % 24
+    \cueVc { R1*2 } | % 24
     c4. -\f c8 es4 g8 c,8 | % 25
     c4 h4 r4 b8 [ c8 ] | % 26
     des1 ~ | % 27

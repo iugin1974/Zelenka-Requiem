@@ -5,7 +5,7 @@
  r4 g8 g8 g16 ( [ f16 ) ] f8 f8 f8 | % 4
  f16 ( [ es16 ) ] es8 es8 es8 d8 es8 \acciaccatura { d8 ( } c4 ) | % 5
  b4 r4 r2 | % 6
- R1*2 | % 8
+ \cueVc { R1*2 } | % 8
  r2 r4 b8 es8 | % 9
  es8 d16 [ c16 ] d8 \grace { es32 ( [ f32 ] } g8 ) g8 f8 b,8 es8 |
  \barNumberCheck #10
@@ -17,5 +17,5 @@
  g8 f8 b,8 es8 es8 d16 ( [ c16 ) ] d8 g8 | % 16
  g8 f8 b,8 c16 ( [ b16 ) ] as4. b16 ( [ as16 ]) | % 17
  g8 as8 f4 es4 r4 | % 18
- R1*5 R1\fermata\bar "|."
+ \cueVc { R1*5 } R1\fermata\bar "|."
 }

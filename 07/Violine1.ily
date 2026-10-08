@@ -14,7 +14,7 @@
   a8 as8 g8. g16 ) | % 14
   f16 ( es16 d16 es16 ) c4 \trill | % 15
   b4 r4 | % 16
-  R2*2 | % 18
+  \cueVc { R2*2 } | % 18
   g8 -\pp es'8 es8 es8 ~ | % 19
   es8 d16 c16 d16 es16 f8 ~ | \barNumberCheck #20
   f8 es16 d16 c16 b16 es16 d16 | % 21
@@ -31,7 +31,7 @@
   a8 ) g8 r8 e8 | % 32
   f8 ( g8 ) c,8 -. f8 ~ -. | % 33
   f8 e8 r4 | % 34
-  R2*3 | % 37
+  \cueVc { R2*3 } | % 37
   c'8 g'8 g8 g8 | % 38
   g8 f16 ( e16 ) f16 ( g16 a16 f16 ) | % 39
   d8 b'8 b8 b8 | \barNumberCheck #40
@@ -60,13 +60,13 @@
   des8 c8 r8 a8 ( | % 59
   b8 c8 f,8 b8 ) ~ | \barNumberCheck #60
   b8 a8 r4 | % 61
-  R2*2 | % 63
+  \cueVc { R2*2 } | % 63
   r4 r8 d8 ~ | % 64
   d8 c8 r4 | % 65
   r4 f,8 b8 ~ | % 66
   b8 a16 g16 a8 d8 ~ | % 67
   d8 c8 r4 | % 68
-  R2*2 | \barNumberCheck #70
+  \cueVc { R2*2 } | \barNumberCheck #70
   f,8 b8 b8 b8 ~ | % 71
   b8 a16 g16 a16 b16 c16 a16 | % 72
   f8 d'8 d8 d8 ~ | % 73

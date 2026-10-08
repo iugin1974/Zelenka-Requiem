@@ -1,5 +1,5 @@
 \relative d' {
-    R1.*2 | % 3
+    \cueVc { R1.*2 } | % 3
     r2 d2 -\p d2 | % 4
     c1 d2 | % 5
     d2 r2 r2 | % 6

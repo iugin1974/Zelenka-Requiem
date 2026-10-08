@@ -2,7 +2,7 @@
   c1 \f | % 2
   \clef "treble" r4 g''4 -! as4 -! \clef "bass" c,4 | % 3
   <<
-    {
+    \tag #'upper {
       r2 f2 | % 4
       f4 es4 \clef "bass" s2 |
     }

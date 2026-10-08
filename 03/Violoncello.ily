@@ -5,7 +5,7 @@
   r2 es2 | % 5
   f2 g2 | % 6
   c,1 | % 7
-   << { g'1 | % 8
+   << \tag #'upper { g'1 | % 8
   c1 | % 9
   es1 | \barNumberCheck #10
   r2 b2 | % 11
@@ -14,7 +14,7 @@
   c2 h2 | % 14
   c2 c4 b4 | }
       \\
-      {
+   {
      r2 g4 f4 |
      es4 f4 es4 d4 |
      c4 d4 es4 f4 |
@@ -31,7 +31,8 @@
   c2 h2 | % 19
   c4 c,4 es4 f4 | \barNumberCheck #20
   g2 \clef "treble"
-  << { g'4 f4 | % 21
+  << 
+    \tag #'upper { g'4 f4 | % 21
   c'1 | % 22
   es1 | % 23
   r2 b2 | % 24

@@ -28,8 +28,8 @@
   f4 g2 ~ | % 28
   g4 g4 fis4 | % 29
   g2. -\fermata \bar "||"
-  R2.*13 |
-  R2.*2 | % 45
+  \cueVc { R2.*13 } |
+  \cueVc { R2.*2 } | % 45
   r8 g8 (  -\p es8 d8 c8 b8 )  | % 46
   a8 (  c8 d8 es8 f8 d8 )  | % 47
   g8 (  f8 )  b4 a4 | % 48

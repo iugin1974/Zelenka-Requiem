@@ -1,5 +1,5 @@
 \relative g' {
-  R2.*15 | % 16
+  \cueVc { R2.*15 } | % 16
   r4 g4^\solo c,4 | % 17
   as'4 g4 f4 | % 18
   es4 c4 d4 | % 19
@@ -8,7 +8,7 @@
   es4 e4. e8 | % 22
   f8 [ es8 ] d8 [ es8 d8 c8 ] | % 23
   h4 r4 r4 | % 24
-  R2.*6 | \barNumberCheck #30
+  \cueVc { R2.*6 } | \barNumberCheck #30
   r4 g'4 c,4 | % 31
   as'4 g4 f4 | % 32
   es4 c4 d4 | % 33
@@ -25,5 +25,5 @@
   r8 d8 es8 [ f8 ] es4 | % 44
   d4 d2 | % 45
   c4 r4 r4 | % 46
-  R2.*7 \bar "|."
+  \cueVc { R2.*7 } \bar "|."
 }

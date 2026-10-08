@@ -1,5 +1,5 @@
 \relative f' {
-  R2*14 | % 15
+  \cueVc { R2*14 } | % 15
   f8 b8 b8 b8 | % 16
   b8 ( [ a16 g16 ) ] a4 | % 17
   f8 d'8 d8 d8 | % 18
@@ -38,7 +38,7 @@
   }
   g4 \trill | % 36
   f4 r4 | % 37
-  R2*13 | \barNumberCheck #50
+  \cueVc { R2*13 } | \barNumberCheck #50
   f8 b8 b8 b8 | % 51
   b8 ( [ a16 g16 ) ] a4 | % 52
   f8 d'8 d8 d8 | % 53
@@ -73,5 +73,5 @@
   d16 ( [ c16 ) ] b16 ( [ es16 ) ] \acciaccatura { d8 } c4 |
   \barNumberCheck #70
   b4 r4 | % 71
-  R2*14 \bar "|."
+  \cueVc { R2*14 } \bar "|."
 }

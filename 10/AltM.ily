@@ -1,5 +1,5 @@
 \relative g' {
-  R1.*2 | % 3
+  \cueVc { R1.*2 } | % 3
   r2 g2 -\f^\tutti  g2 | % 4
   as1 as2 | % 5
   r2 as2 as2 | % 6

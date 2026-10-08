@@ -6,7 +6,7 @@
     as16 as16 a4 b8. [ as16 g16 f16 ] | % 6
     e4. ( f16 [ b,16 ] c8. ) c16 | % 7
     f,4 r8 r4 r8 | % 8
-    R2.*2 | \barNumberCheck #10
+    \cueVc { R2.*2 } | \barNumberCheck #10
     r8 c'8 g'8 as8 g8 f8 | % 11
     es8 c8 es8 d8 d'8 c8 | % 12
     b4. a8 a,4 | % 13
@@ -16,5 +16,5 @@
     es,8 [ f16 g16 as8 ] d,8 [ es16 f16 g8 ] | % 17
     g,16 [ g'16 a16 h16 c8 ] f,16 [ as16 g,8. ] g16 | % 18
     c4 r8 r4 r8 | % 19
-    R2.*2 \bar "|."
+    \cueVc { R2.*2 } \bar "|."
     }

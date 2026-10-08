@@ -1,5 +1,5 @@
 \relative g' {
-  R2.*2 | % 3
+  \cueVc { R2.*2 } | % 3
   r8 g8 d'8 es8 d8 c8 | % 4
   b8 h8 h8 c4. ~ | % 5
     c8 c8 -. c8 -. c8 b16 [ c16 ] des8 ~ | % 6
@@ -16,5 +16,5 @@
     d4 c8 c4 h8 ~ | % 17
     h8 [ c16 d16 c8 ] c4 h8 | % 18
     c4 r8 r4 r8 | % 19
-    R2.*2 \bar "|."
+    \cueVc { R2.*2 } \bar "|."
     }

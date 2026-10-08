@@ -11,7 +11,7 @@
     g4 f2 es8 d8 | % 11
     d2 c2 | % 12
     R1 | % 13
-    R1*5 | % 18
+    \cueVc { R1*5 } | % 18
     r2 r4 es'8 -\f es8 | % 19
     es4 d4 es4 c4 | \barNumberCheck #20
     b2 b2 | % 21

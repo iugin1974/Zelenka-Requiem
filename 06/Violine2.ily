@@ -1,6 +1,6 @@
 \relative g' {
   g4 -\f r4 r2 | % 2
-  R1*3 | % 5
+  \cueVc { R1*3 } | % 5
   r8 b8 -\p b,8 b'8 ~ b16 g16 f16 es16 \grace {
     f32 ( g32
   } as8. ) as16 | % 6

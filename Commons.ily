@@ -233,3 +233,18 @@ blx = #(define-music-function (parser location m)(ly:music?)
            \bassFigureExtendersOff
          #}
          )
+
+
+% valore di default: nessuna citazione
+#(define quoteName #f)
+
+cueVc =
+#(define-music-function (music) (ly:music?)
+   (if quoteName
+       #{
+         {
+           \new CueVoice { \set instrumentCueName = "Vc." }
+           \cueDuringWithClef #quoteName #UP "bass" $music
+         }
+       #}
+       music))
