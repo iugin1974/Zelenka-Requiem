@@ -37,7 +37,7 @@
   d8 b'8 b8 b8 | \barNumberCheck #40
   b8 a16 ( g16 ) a16 ( b16 c16 a16 ) | % 41
   f8 d'8 ~ d16 c16 b16 a16 ~ | % 42
-  a8 g8 r8 a8 ( | % 43
+  a8 g8 r8 c8 ( | % 43
   h8 b8 a8 as8 ) ~ | % 44
   as8 g8 r8 e,8 | % 45
   f8 g8 c,8 f8 ~ | % 46
