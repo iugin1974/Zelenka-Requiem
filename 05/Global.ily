@@ -2,7 +2,7 @@
 \compressEmptyMeasures
 \key c \minor
 \time 4/4
-\tempo "Adagio" 4=60
+\tempo "Adagio" 4=65
 \accidentalStyle modern
 s1*24
 \bar "|."
