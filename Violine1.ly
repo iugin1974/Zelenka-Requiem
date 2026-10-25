@@ -75,7 +75,9 @@
         << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
-
+ }
+  
+  \bookpart {
     #(define prefix "04/")
     \addQuote #quoteName {
       \removeWithTag #'upper {
@@ -120,7 +122,9 @@
         << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
-
+ }
+  
+  \bookpart {
     #(define prefix "07/")
     \addQuote #quoteName {
       \removeWithTag #'upper {
@@ -135,9 +139,8 @@
         << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
-  }
 
-  \bookpart {
+
     #(define prefix "08/")
     \addQuote #quoteName {
       \removeWithTag #'upper {
@@ -152,7 +155,9 @@
         << \clef "treble" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Violine1.ily") >>
       >>
     }
-
+ }
+  
+  \bookpart {
     #(define prefix "09/")
     \addQuote #quoteName {
       \removeWithTag #'upper {

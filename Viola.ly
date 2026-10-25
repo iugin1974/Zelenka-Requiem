@@ -65,7 +65,9 @@
         << \clef "alto" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Viola.ily") >>
       >>
     }
-
+  }
+  
+  \bookpart {
     #(define prefix "07/")
     \addQuote #quoteName {
       \removeWithTag #'upper {
@@ -80,8 +82,9 @@
         << \clef "alto" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Viola.ily") >>
       >>
     }
-  }
 
+ }
+  
   \bookpart {
     #(define prefix "08/")
     \addQuote #quoteName {
@@ -99,7 +102,9 @@
     }
 
     \markup\tacet{"09. Liber scriptus"}
-
+ }
+  
+  \bookpart {
     #(define prefix "10/")
     \addQuote #quoteName {
       \removeWithTag #'upper {

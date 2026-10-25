@@ -82,9 +82,8 @@
     \markup\tacet{"07. Tuba mirum"}
     \markup\tacet{"08. Mors stupebit"}
     \markup\tacet{"09. Liber scriptus"}
-  }
 
-  \bookpart {
+
     #(define prefix "10/")
     \addQuote #quoteName {
       \removeWithTag #'upper {
@@ -101,7 +100,9 @@
         >>
       >>
     }
-
+  }
+  
+  \bookpart {
     #(define prefix "11/")
     \addQuote #quoteName {
       \removeWithTag #'upper {
@@ -133,7 +134,9 @@
         << \clef "alto" \include #(string-append prefix "Global.ily") \include #(string-append prefix "Trombone1.ily") >>
       >>
     }
-
+  }
+  
+  \bookpart {
     #(define prefix "14/")
     \addQuote #quoteName {
       \removeWithTag #'upper {
@@ -149,9 +152,8 @@
       >>
     }
     \markup\tacet{"15. Lux eterna"}
-  }
 
-  \bookpart {
+
     #(define prefix "16/")
     \addQuote #quoteName {
       \removeWithTag #'upper {

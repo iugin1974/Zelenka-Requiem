@@ -1,11 +1,15 @@
-\version "2.24.1"
+\version "2.26.0"
 \language "deutsch"
 \include "Cover.ily"
 \include "Commons.ily"
-#(set-global-staff-size 15)
+#(set-global-staff-size 16)
 \pointAndClickOff
 
 \paper {
+  left-margin = 0.5\cm
+  right-margin = 0
+  top-margin = 0.5\cm
+  bottom-margin = 0
   ragged-last-bottom = ##f
   tocItemMarkup = \tocItemWithDotsMarkup
   system-separator-markup = \slashSeparator
@@ -19,6 +23,8 @@
   }
 }
 
+yellow = \staffHighlight #(rgb-color 1 1 .8)
+
 \layout {
   \context {
     \StaffGroup
@@ -26,7 +32,7 @@
   }
   \context {
     \FiguredBass
-    \override BassFigure.font-size = #1
+    \override BassFigure.font-size = #2
   }
 }
 
@@ -98,7 +104,7 @@
         \new Staff
         <<
           \clef "bass" \include #(string-append prefix "Global.ily")
-          \new Voice { \include #(string-append prefix "Violoncello.ily") }
+          \yellow \new Voice { \include #(string-append prefix "Violoncello.ily") }
         >>
         \new FiguredBass {
           \include #(string-append prefix "Continuo.ily")
@@ -151,7 +157,7 @@
         \new Staff
         <<
           \clef "bass" \include #(string-append prefix "Global.ily")
-          \new Voice { \include #(string-append prefix "Violoncello.ily") }
+          \yellow \new Voice { \include #(string-append prefix "Violoncello.ily") }
         >>
         \new FiguredBass {
           \include #(string-append prefix "Continuo.ily")
@@ -214,7 +220,7 @@
         \new Staff
         <<
           \clef "bass" \include #(string-append prefix "Global.ily")
-          \new Voice { \include #(string-append prefix "Violoncello.ily") }
+          \yellow \new Voice { \include #(string-append prefix "Violoncello.ily") }
         >>
         \new FiguredBass {
           \include #(string-append prefix "Continuo.ily")
@@ -258,7 +264,7 @@
         \new Staff
         <<
           \clef "bass" \include #(string-append prefix "Global.ily")
-          \new Voice { \include #(string-append prefix "Violoncello.ily") }
+          \yellow \new Voice { \include #(string-append prefix "Violoncello.ily") }
         >>
         \new FiguredBass {
           \include #(string-append prefix "Continuo.ily")
@@ -328,7 +334,7 @@
         \new Staff
         <<
           \clef "bass" \include #(string-append prefix "Global.ily")
-          \new Voice { \include #(string-append prefix "Violoncello.ily") }
+          \yellow \new Voice { \include #(string-append prefix "Violoncello.ily") }
         >>
         \new FiguredBass {
           \include #(string-append prefix "Continuo.ily")
@@ -374,7 +380,7 @@
         \new Staff
         <<
           \clef "bass" \include #(string-append prefix "Global.ily")
-          \new Voice { \include #(string-append prefix "Violoncello.ily") }
+          \yellow \new Voice { \include #(string-append prefix "Violoncello.ily") }
         >>
         \new FiguredBass {
           \include #(string-append prefix "Continuo.ily")
@@ -412,7 +418,7 @@
         \new Staff
         <<
           \clef "bass" \include #(string-append prefix "Global.ily")
-          \new Voice { \include #(string-append prefix "Violoncello.ily") }
+          \yellow \new Voice { \include #(string-append prefix "Violoncello.ily") }
         >>
         \new FiguredBass {
           \include #(string-append prefix "Continuo.ily")
@@ -450,7 +456,7 @@
         \new Staff
         <<
           \clef "bass" \include #(string-append prefix "Global.ily")
-          \new Voice { \include #(string-append prefix "Violoncello.ily") }
+          \yellow \new Voice { \include #(string-append prefix "Violoncello.ily") }
         >>
         \new FiguredBass {
           \include #(string-append prefix "Continuo.ily")
@@ -477,7 +483,7 @@
         \new Staff
         <<
           \clef "bass" \include #(string-append prefix "Global.ily")
-          \new Voice { \include #(string-append prefix "Violoncello.ily") }
+          \yellow \new Voice { \include #(string-append prefix "Violoncello.ily") }
         >>
         \new FiguredBass {
           \include #(string-append prefix "Continuo.ily")
@@ -546,7 +552,7 @@
         \new Staff
         <<
           \clef "bass" \include #(string-append prefix "Global.ily")
-          \new Voice { \include #(string-append prefix "Violoncello.ily") }
+          \yellow \new Voice { \include #(string-append prefix "Violoncello.ily") }
         >>
         \new FiguredBass {
           \include #(string-append prefix "Continuo.ily")
@@ -608,7 +614,7 @@
         \new Staff
         <<
           \clef "bass" \include #(string-append prefix "Global.ily")
-          \new Voice { \include #(string-append prefix "Violoncello.ily") }
+          \yellow \new Voice { \include #(string-append prefix "Violoncello.ily") }
         >>
         \new FiguredBass {
           \include #(string-append prefix "Continuo.ily")
@@ -643,7 +649,7 @@
         \new Staff
         <<
           \clef "bass" \include #(string-append prefix "Global.ily")
-          \new Voice { \include #(string-append prefix "Violoncello.ily") }
+          \yellow \new Voice { \include #(string-append prefix "Violoncello.ily") }
         >>
         \new FiguredBass {
           \include #(string-append prefix "Continuo.ily")
@@ -704,7 +710,7 @@
         \new Staff
         <<
           \clef "bass" \include #(string-append prefix "Global.ily")
-          \new Voice { \include #(string-append prefix "Violoncello.ily") }
+          \yellow \new Voice { \include #(string-append prefix "Violoncello.ily") }
         >>
         \new FiguredBass {
           \include #(string-append prefix "Continuo.ily")
@@ -764,7 +770,7 @@
         \new Staff
         <<
           \clef "bass" \include #(string-append prefix "Global.ily")
-          \new Voice { \include #(string-append prefix "Violoncello.ily") }
+          \yellow \new Voice { \include #(string-append prefix "Violoncello.ily") }
         >>
         \new FiguredBass {
           \include #(string-append prefix "Continuo.ily")
@@ -800,7 +806,7 @@
         \new Staff
         <<
           \clef "bass" \include #(string-append prefix "Global.ily")
-          \new Voice { \include #(string-append prefix "Violoncello.ily") }
+          \yellow \new Voice { \include #(string-append prefix "Violoncello.ily") }
         >>
         \new FiguredBass {
           \include #(string-append prefix "Continuo.ily")
@@ -861,7 +867,7 @@
         \new Staff
         <<
           \clef "bass" \include #(string-append prefix "Global.ily")
-          \new Voice { \include #(string-append prefix "Violoncello.ily") }
+          \yellow \new Voice { \include #(string-append prefix "Violoncello.ily") }
         >>
         \new FiguredBass {
           \include #(string-append prefix "Continuo.ily")

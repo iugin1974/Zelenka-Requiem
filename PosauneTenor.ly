@@ -149,9 +149,8 @@
       >>
     }
     \markup\tacet{"15. Lux eterna"}
-  }
 
-  \bookpart {
+
     #(define prefix "16/")
     \addQuote #quoteName {
       \removeWithTag #'upper {
